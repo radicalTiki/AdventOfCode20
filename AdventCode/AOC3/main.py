@@ -41,28 +41,5 @@ if __name__ == '__main__':
 
     answers.append(traverse1(entries, 1, 2))
     print("1:2 : ", answers[-1])
-#
+
     print("answer: ", math.prod(answers))
-
-
-
-
-# tree = '#'
-# move_x = 3
-#
-#
-# def traverse1(trav_entries):
-#     trees_hit = 0
-#     pos_x = 0
-#     for entry in entries[1:]:
-#         pos_x = pos_x + move_x
-#         if entry[pos_x % len(entry)] == tree:
-#             trees_hit = trees_hit + 1
-#     return trees_hit
-#
-#
-# if __name__ == '__main__':
-#     entries = open('input.txt').readlines()
-#     entries = [x.strip() for x in entries]
-#     answer = traverse1(entries)
-#     print("The answer = " + str(answer))
